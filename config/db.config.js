@@ -1,10 +1,9 @@
 module.exports = {
-  HOST: "localhost",
-  USER: "root",
-  PASSWORD: "",
-  DB: "BNPL",
+  HOST: process.env.DB_HOST,      // l'adresse de ta DB Railway, pas localhost
+  USER: process.env.DB_USER,      // utilisateur DB Railway (ex: root)
+  PASSWORD: process.env.DB_PASSWORD, // mot de passe DB Railway
+  DB: process.env.DB_NAME,         // nom de ta base Railway
   dialect: "mysql",
-  port: 3306,  // Ajoute cette ligne avec le bon port
   pool: {
     max: 5,
     min: 0,

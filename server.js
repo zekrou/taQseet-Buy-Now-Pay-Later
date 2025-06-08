@@ -1,3 +1,5 @@
+require('dotenv').config(); // ✅ Charge les variables d'environnement depuis .env
+
 const express = require("express");
 const cors = require("cors");
 const cookieSession = require("cookie-session");

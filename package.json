@@ -134,6 +134,10 @@
     "authorization",
     "mysql"
   ],
+  "scripts": {
+  "start": "node server.js"
+},
+
   "author": "zakarya",
   "license": "ISC"
 }
