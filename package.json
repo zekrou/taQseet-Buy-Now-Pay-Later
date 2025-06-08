@@ -119,9 +119,10 @@
     "wkx": "^0.5.0",
     "yallist": "^4.0.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node server.js"
+},
   "keywords": [
     "node.js",
     "express",
@@ -134,9 +135,6 @@
     "authorization",
     "mysql"
   ],
-  "scripts": {
-  "start": "node server.js"
-},
 
   "author": "zakarya",
   "license": "ISC"
